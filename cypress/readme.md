@@ -74,6 +74,11 @@ cypress/
  │    │
  │    ├── commands.js
  │    ├── e2e.js
+
+docs/
+ ├── plano-de-teste-inventario.pdf
+ ├── cenarios-de-teste-inventario.pdf
+ ├── bugs-melhorias-duvidas-inventario.pdf
 ```
 
 ---
