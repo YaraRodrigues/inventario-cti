@@ -185,5 +185,7 @@ O projeto foi desenvolvido com foco em:
 * Identificação de problemas reais da aplicação
 
 Durante a execução dos testes, foi possível identificar comportamentos inconsistentes e limitações da aplicação, principalmente relacionadas à validação de campos e testabilidade.
+
 Os pontos encontrados foram documentados e podem servir como base para melhorias futuras no sistema.
+
 Além da automação dos testes, o projeto também contribuiu para uma análise mais crítica das regras de negócio e da experiência do usuário.
