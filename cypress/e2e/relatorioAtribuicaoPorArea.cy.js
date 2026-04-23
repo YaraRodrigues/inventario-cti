@@ -42,7 +42,6 @@ describe('Relatório Atribuição por Área', () => {
         cy.get('div.card-header.py-3 > h6')
             .should('contain', 'Relatório Analítico')
 
-        relatorioPages.clicarPesquisar()
         relatorioPages.gerarRelatorio()
         
         cy.url().should('contain', '/portal_service/reports/assignments_by_area_pdf')

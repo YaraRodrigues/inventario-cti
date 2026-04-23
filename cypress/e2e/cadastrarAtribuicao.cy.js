@@ -2,7 +2,7 @@
 import inventarioPages from "../support/pages/inventarioPages";
 import atribuicaoPages from "../support/pages/atribuicaoPages";
 
-describe('Cadastrar de Atribuição', () => {
+describe('Cadastro de Atribuição', () => {
 
     beforeEach('Acessando pagina de Nova Atribuição', () => {
         inventarioPages.realizarLogin()

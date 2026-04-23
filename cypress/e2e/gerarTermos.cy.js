@@ -45,10 +45,12 @@ describe('Gerar Termos', () => {
         atribuicaoPages.solicitarTermoAtribuicao()
 
         cy.get('#term_type_loan').check()
-        cy.get('#term_type_liability').should('not.be.disabled')
+        cy.get('#term_type_loan').should('be.checked')
+        cy.get('#term_type_liability').should('not.be.checked')
 
         cy.get('#term_type_liability').check()
-        cy.get('#term_type_loan').should('not.be.disabled')
+        cy.get('#term_type_liability').should('be.checked')
+        cy.get('#term_type_loan').should('not.be.checked')
     })
 
     it('Fechar Modal de Gerar Termo', () => {

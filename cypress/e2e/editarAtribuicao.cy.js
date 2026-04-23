@@ -21,7 +21,7 @@ describe('Editar Atribuição', () => {
             .and('contain', 'atualizado com sucesso!');
     })
 
-    it('Excluir item obrigatório e tentar editar.', () => {
+    it('Não deve permitir salvar edição sem ativo. (item Obrigatorio)', () => {
         //Teste para 2 cernarios
         atribuicaoPages.preenchendoAtendente() //função de ajuste.
         cy.get('#add_status > div.control.col-md-1 > a.dynamic')
