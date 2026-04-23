@@ -183,6 +183,7 @@ O projeto foi desenvolvido com foco em:
 * Organização e clareza do código
 * Cobertura de cenários relevantes
 * Identificação de problemas reais da aplicação
-* Aplicação de boas práticas de automação
 
-Além da implementação dos testes, houve preocupação em analisar o comportamento do sistema, documentar inconsistências e propor melhorias, contribuindo para aumento da qualidade e testabilidade da aplicação.
+Durante a execução dos testes, foi possível identificar comportamentos inconsistentes e limitações da aplicação, principalmente relacionadas à validação de campos e testabilidade.
+Os pontos encontrados foram documentados e podem servir como base para melhorias futuras no sistema.
+Além da automação dos testes, o projeto também contribuiu para uma análise mais crítica das regras de negócio e da experiência do usuário.
